@@ -9,7 +9,7 @@ end
 def summon_captain_planet(heroes)# code an argument here
   # Your code here
   heroes.collect do |hero|
-    "#{hero.capitalizes}!"
+    "#{hero.capitalize}!"
   end
 end
 
