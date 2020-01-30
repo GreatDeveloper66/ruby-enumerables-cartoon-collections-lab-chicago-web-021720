@@ -6,8 +6,11 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(heroes)# code an argument here
   # Your code here
+  heroes.collect do |hero|
+    "#{hero.capitalizes}!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
