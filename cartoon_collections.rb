@@ -13,8 +13,11 @@ def summon_captain_planet(heroes)# code an argument here
   end
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(heroes)# code an argument here
   # Your code here
+  heroes.any? do |hero|
+    hero.length() > 4
+  end
 end
 
 def find_the_cheese# code an argument here
